@@ -1,0 +1,13 @@
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\bin\Debug\netcoreapp3.1\youtubeLinkProject.exe
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\bin\Debug\netcoreapp3.1\youtubeLinkProject.deps.json
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\bin\Debug\netcoreapp3.1\youtubeLinkProject.runtimeconfig.json
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\bin\Debug\netcoreapp3.1\youtubeLinkProject.runtimeconfig.dev.json
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\bin\Debug\netcoreapp3.1\youtubeLinkProject.dll
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\bin\Debug\netcoreapp3.1\youtubeLinkProject.pdb
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\obj\Debug\netcoreapp3.1\youtubeLinkProject.csprojAssemblyReference.cache
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\obj\Debug\netcoreapp3.1\youtubeLinkProject.AssemblyInfoInputs.cache
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\obj\Debug\netcoreapp3.1\youtubeLinkProject.AssemblyInfo.cs
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\obj\Debug\netcoreapp3.1\youtubeLinkProject.csproj.CoreCompileInputs.cache
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\obj\Debug\netcoreapp3.1\youtubeLinkProject.dll
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\obj\Debug\netcoreapp3.1\youtubeLinkProject.pdb
+C:\Users\Ubuntu\source\repos\youtubeLinkProject\youtubeLinkProject\obj\Debug\netcoreapp3.1\youtubeLinkProject.genruntimeconfig.cache

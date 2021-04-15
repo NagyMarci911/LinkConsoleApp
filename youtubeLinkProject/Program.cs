@@ -17,6 +17,7 @@ namespace youtubeLinkProject
             Console.WriteLine("adding link: add typeName link comment");
             Console.WriteLine("delete link: delete typeName number");
             Console.WriteLine("To print out the types: ls");
+            Console.WriteLine("To get all links in a type: getlinks type");
 
             menuControl.ChooseOption();
         }

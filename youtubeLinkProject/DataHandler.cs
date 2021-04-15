@@ -75,6 +75,7 @@ namespace youtubeLinkProject
                 }
                 line++;
             }
+            str.Close();
             if (exists)
             {
                 string[] allLinks = File.ReadAllLines(typePath);
@@ -86,8 +87,22 @@ namespace youtubeLinkProject
                     splittedcurrent[0] = currentnumb.ToString();
                     allLinks[i] = string.Join("ß",splittedcurrent);
                 }
-                allLinks[allLinks.Length - 1] = "";
-                File.WriteAllLines(typePath, allLinks);
+                if (allLinks.Length == 1)
+                {
+
+                    File.Delete(typePath);
+                }
+                else
+                {
+                    string[] shorterLinks = new string[allLinks.Length - 1];
+                    for (int i = 0; i < shorterLinks.Length; i++)
+                    {
+                        shorterLinks[i] = allLinks[i];
+                    }
+                    File.Delete(typePath);
+                    File.WriteAllLines(typePath, shorterLinks);
+                }
+
             }
             else
             {
@@ -95,5 +110,6 @@ namespace youtubeLinkProject
             }
             
         }
+
     }
 }

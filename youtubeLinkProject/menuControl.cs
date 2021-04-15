@@ -46,7 +46,7 @@ namespace youtubeLinkProject
                     }
 
                 }
-                else if (input.Substring(6) == "delete")
+                else if (input.Substring(0,6) == "delete")
                 {
                     try
                     {
@@ -56,6 +56,22 @@ namespace youtubeLinkProject
                     catch (Exception ex)
                     {
                         datahandler.outputHandler?.Invoke("There was an error. You can delete link with: delete typeName number");
+                    }
+                }else if (input.Substring(0,9) == "getlinks ")
+                {
+                    try
+                    {
+                        List<string> links = datahandler.GetLinks(input.Split(' ')[1]);
+                        foreach (string item in links)
+                        {
+                            datahandler.outputHandler?.Invoke(item);
+                        }
+                        
+                    }
+                    catch (Exception)
+                    {
+
+                        datahandler.outputHandler?.Invoke("Error, couldnt find the type");
                     }
                 }
             } while (true);
